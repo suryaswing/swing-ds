@@ -67,72 +67,6 @@ class AppTextStyles {
     leadingDistribution: TextLeadingDistribution.even,
   );
 
-  static const subheadingS1Semibold = TextStyle(
-    fontFamily: "Manrope",
-    fontWeight: FontWeight.w700,
-    fontStyle: FontStyle.normal,
-    fontSize: 18,
-    decoration: TextDecoration.none,
-    letterSpacing: 0,
-    height: 1.4444444444444444,
-    leadingDistribution: TextLeadingDistribution.even,
-  );
-
-  static const subheadingS1 = TextStyle(
-    fontFamily: "Manrope",
-    fontWeight: FontWeight.w400,
-    fontStyle: FontStyle.normal,
-    fontSize: 18,
-    decoration: TextDecoration.none,
-    letterSpacing: 0,
-    height: 1.4444444444444444,
-    leadingDistribution: TextLeadingDistribution.even,
-  );
-
-  static const subheadingS2Semibold = TextStyle(
-    fontFamily: "Manrope",
-    fontWeight: FontWeight.w700,
-    fontStyle: FontStyle.normal,
-    fontSize: 16,
-    decoration: TextDecoration.none,
-    letterSpacing: 0,
-    height: 1.375,
-    leadingDistribution: TextLeadingDistribution.even,
-  );
-
-  static const subheadingS2 = TextStyle(
-    fontFamily: "Manrope",
-    fontWeight: FontWeight.w400,
-    fontStyle: FontStyle.normal,
-    fontSize: 16,
-    decoration: TextDecoration.none,
-    letterSpacing: 0,
-    height: 1.375,
-    leadingDistribution: TextLeadingDistribution.even,
-  );
-
-  static const subheadingS3Semibold = TextStyle(
-    fontFamily: "Manrope",
-    fontWeight: FontWeight.w700,
-    fontStyle: FontStyle.normal,
-    fontSize: 14,
-    decoration: TextDecoration.none,
-    letterSpacing: 0,
-    height: 1.4285714285714286,
-    leadingDistribution: TextLeadingDistribution.even,
-  );
-
-  static const subheadingS3 = TextStyle(
-    fontFamily: "Manrope",
-    fontWeight: FontWeight.w400,
-    fontStyle: FontStyle.normal,
-    fontSize: 14,
-    decoration: TextDecoration.none,
-    letterSpacing: 0,
-    height: 1.4285714285714286,
-    leadingDistribution: TextLeadingDistribution.even,
-  );
-
   static const bodyB1Semibold = TextStyle(
     fontFamily: "Manrope",
     fontWeight: FontWeight.w700,
@@ -221,28 +155,6 @@ class AppTextStyles {
     leadingDistribution: TextLeadingDistribution.even,
   );
 
-  static const ctaButtonLarge = TextStyle(
-    fontFamily: "Manrope",
-    fontWeight: FontWeight.w700,
-    fontStyle: FontStyle.normal,
-    fontSize: 16,
-    decoration: TextDecoration.none,
-    letterSpacing: 0.32,
-    height: 1.25,
-    leadingDistribution: TextLeadingDistribution.even,
-  );
-
-  static const ctaButtonSmall = TextStyle(
-    fontFamily: "Manrope",
-    fontWeight: FontWeight.w700,
-    fontStyle: FontStyle.normal,
-    fontSize: 12,
-    decoration: TextDecoration.none,
-    letterSpacing: 0.24,
-    height: 1.1666666666666667,
-    leadingDistribution: TextLeadingDistribution.even,
-  );
-
   static const labelLabelLarge = TextStyle(
     fontFamily: "Manrope",
     fontWeight: FontWeight.w700,
@@ -262,6 +174,94 @@ class AppTextStyles {
     decoration: TextDecoration.none,
     letterSpacing: 0.32,
     height: 1.25,
+    leadingDistribution: TextLeadingDistribution.even,
+  );
+
+  static const subheadingS1Semibold = TextStyle(
+    fontFamily: "Manrope",
+    fontWeight: FontWeight.w700,
+    fontStyle: FontStyle.normal,
+    fontSize: 18,
+    decoration: TextDecoration.none,
+    letterSpacing: 0,
+    height: 1.4444444444444444,
+    leadingDistribution: TextLeadingDistribution.even,
+  );
+
+  static const subheadingS1 = TextStyle(
+    fontFamily: "Manrope",
+    fontWeight: FontWeight.w400,
+    fontStyle: FontStyle.normal,
+    fontSize: 18,
+    decoration: TextDecoration.none,
+    letterSpacing: 0,
+    height: 1.4444444444444444,
+    leadingDistribution: TextLeadingDistribution.even,
+  );
+
+  static const subheadingS2Semibold = TextStyle(
+    fontFamily: "Manrope",
+    fontWeight: FontWeight.w700,
+    fontStyle: FontStyle.normal,
+    fontSize: 16,
+    decoration: TextDecoration.none,
+    letterSpacing: 0,
+    height: 1.375,
+    leadingDistribution: TextLeadingDistribution.even,
+  );
+
+  static const subheadingS2 = TextStyle(
+    fontFamily: "Manrope",
+    fontWeight: FontWeight.w400,
+    fontStyle: FontStyle.normal,
+    fontSize: 16,
+    decoration: TextDecoration.none,
+    letterSpacing: 0,
+    height: 1.375,
+    leadingDistribution: TextLeadingDistribution.even,
+  );
+
+  static const subheadingS3Semibold = TextStyle(
+    fontFamily: "Manrope",
+    fontWeight: FontWeight.w700,
+    fontStyle: FontStyle.normal,
+    fontSize: 14,
+    decoration: TextDecoration.none,
+    letterSpacing: 0,
+    height: 1.4285714285714286,
+    leadingDistribution: TextLeadingDistribution.even,
+  );
+
+  static const subheadingS3 = TextStyle(
+    fontFamily: "Manrope",
+    fontWeight: FontWeight.w400,
+    fontStyle: FontStyle.normal,
+    fontSize: 14,
+    decoration: TextDecoration.none,
+    letterSpacing: 0,
+    height: 1.4285714285714286,
+    leadingDistribution: TextLeadingDistribution.even,
+  );
+
+  static const ctaButtonLarge = TextStyle(
+    fontFamily: "Manrope",
+    fontWeight: FontWeight.w700,
+    fontStyle: FontStyle.normal,
+    fontSize: 16,
+    decoration: TextDecoration.none,
+    letterSpacing: 0.32,
+    height: 1.25,
+    leadingDistribution: TextLeadingDistribution.even,
+  );
+
+  static const ctaButtonSmall = TextStyle(
+    fontFamily: "Manrope",
+    fontWeight: FontWeight.w700,
+    fontStyle: FontStyle.normal,
+    fontSize: 12,
+    decoration: TextDecoration.none,
+    letterSpacing: 0.24,
+    height: 1.1666666666666667,
     leadingDistribution: TextLeadingDistribution.even,
   );
 
