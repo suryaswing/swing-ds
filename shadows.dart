@@ -29,5 +29,13 @@ class AppShadows {
     spreadRadius: 0,
   );
 
+  /// Use to create a shadow when content scrolls under other content.
+  static const elevationShadowOverflow = BoxShadow(
+    color: Color(0xff1c1c28),
+    offset: Offset(0, 0),
+    blurRadius: 8,
+    spreadRadius: 0,
+  );
+
   AppShadows._();
 }
