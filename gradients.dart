@@ -48,20 +48,6 @@ class AppGradients {
     ],
   );
 
-  /// --gradient-swing-pass
-  static const gradientBrandSwingPass = LinearGradient(
-    begin: Alignment(1, -1),
-    end: Alignment(2.8, -1),
-    stops: [
-      0,
-      0.7,
-    ],
-    colors: [
-    Color(0xff0000ff),
-    Color(0xff0000ff),
-    ],
-  );
-
   static const gradientBrandLinearOp = LinearGradient(
     begin: Alignment(0, -1),
     end: Alignment(0, 1),
