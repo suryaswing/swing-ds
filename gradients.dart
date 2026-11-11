@@ -85,8 +85,8 @@ class AppGradients {
     ],
     colors: [
     Color(0xff5c00e6),
-    Color(0xff4900b8),
-    Color(0xff360087),
+    Color(0xff4e00c4),
+    Color(0xff4100a3),
     ],
   );
 

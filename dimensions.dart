@@ -37,6 +37,9 @@ class AppDimensions {
   /// -2% of 36px, in px because Figma variables have no percent
   static const dimensionTypographyHeadingH1LetterSpacing = -0.72;
 
+  /// --type-h1:paragraph-spacing
+  static const dimensionTypographyHeadingH1ParagraphSpacing = 24;
+
   /// --type-h2:size
   static const dimensionTypographyHeadingH2Size = 30;
 
@@ -46,6 +49,9 @@ class AppDimensions {
   /// --type-h2:letter-spacing
   /// -2% of 30px, in px because Figma variables have no percent
   static const dimensionTypographyHeadingH2LetterSpacing = -0.6;
+
+  /// --type-h2:paragraph-spacing
+  static const dimensionTypographyHeadingH2ParagraphSpacing = 24;
 
   /// --type-h3:size
   static const dimensionTypographyHeadingH3Size = 24;
@@ -57,6 +63,9 @@ class AppDimensions {
   /// -2% of 24px, in px because Figma variables have no percent
   static const dimensionTypographyHeadingH3LetterSpacing = -0.48;
 
+  /// --type-h3:paragraph-spacing
+  static const dimensionTypographyHeadingH3ParagraphSpacing = 16;
+
   /// --type-h4:size
   static const dimensionTypographyHeadingH4Size = 20;
 
@@ -66,6 +75,9 @@ class AppDimensions {
   /// --type-h4:letter-spacing
   /// -2% of 20px, in px because Figma variables have no percent
   static const dimensionTypographyHeadingH4LetterSpacing = -0.4;
+
+  /// --type-h4:paragraph-spacing
+  static const dimensionTypographyHeadingH4ParagraphSpacing = 16;
 
   /// --type-h5:size
   static const dimensionTypographyHeadingH5Size = 18;
@@ -77,6 +89,9 @@ class AppDimensions {
   /// -2% of 18px, in px because Figma variables have no percent
   static const dimensionTypographyHeadingH5LetterSpacing = -0.36;
 
+  /// --type-h5:paragraph-spacing
+  static const dimensionTypographyHeadingH5ParagraphSpacing = 12;
+
   /// --type-h6:size
   static const dimensionTypographyHeadingH6Size = 14;
 
@@ -86,6 +101,9 @@ class AppDimensions {
   /// --type-h6:letter-spacing
   /// -2% of 14px, in px because Figma variables have no percent
   static const dimensionTypographyHeadingH6LetterSpacing = -0.28;
+
+  /// --type-h6:paragraph-spacing
+  static const dimensionTypographyHeadingH6ParagraphSpacing = 12;
 
   /// --type-s1:size
   static const dimensionTypographySubheadingRegularS1Size = 18;
@@ -97,6 +115,9 @@ class AppDimensions {
   /// 0% of 18px, in px because Figma variables have no percent
   static const dimensionTypographySubheadingRegularS1LetterSpacing = 0;
 
+  /// --type-s1:paragraph-spacing
+  static const dimensionTypographySubheadingRegularS1ParagraphSpacing = 16;
+
   /// --type-s2:size
   static const dimensionTypographySubheadingRegularS2Size = 16;
 
@@ -106,6 +127,9 @@ class AppDimensions {
   /// --type-s2:letter-spacing
   /// 0% of 16px, in px because Figma variables have no percent
   static const dimensionTypographySubheadingRegularS2LetterSpacing = 0;
+
+  /// --type-s2:paragraph-spacing
+  static const dimensionTypographySubheadingRegularS2ParagraphSpacing = 12;
 
   /// --type-s3:size
   static const dimensionTypographySubheadingRegularS3Size = 14;
@@ -117,6 +141,9 @@ class AppDimensions {
   /// 0% of 14px, in px because Figma variables have no percent
   static const dimensionTypographySubheadingRegularS3LetterSpacing = 0;
 
+  /// --type-s3:paragraph-spacing
+  static const dimensionTypographySubheadingRegularS3ParagraphSpacing = 12;
+
   /// --type-s1s:size
   static const dimensionTypographySubheadingSemiboldS1Size = 18;
 
@@ -126,6 +153,9 @@ class AppDimensions {
   /// --type-s1s:letter-spacing
   /// 0% of 18px, in px because Figma variables have no percent
   static const dimensionTypographySubheadingSemiboldS1LetterSpacing = 0;
+
+  /// --type-s1s:paragraph-spacing
+  static const dimensionTypographySubheadingSemiboldS1ParagraphSpacing = 16;
 
   /// --type-s2s:size
   static const dimensionTypographySubheadingSemiboldS2Size = 16;
@@ -137,6 +167,9 @@ class AppDimensions {
   /// 0% of 16px, in px because Figma variables have no percent
   static const dimensionTypographySubheadingSemiboldS2LetterSpacing = 0;
 
+  /// --type-s2s:paragraph-spacing
+  static const dimensionTypographySubheadingSemiboldS2ParagraphSpacing = 12;
+
   /// --type-s3s:size
   static const dimensionTypographySubheadingSemiboldS3Size = 14;
 
@@ -146,6 +179,9 @@ class AppDimensions {
   /// --type-s3s:letter-spacing
   /// 0% of 14px, in px because Figma variables have no percent
   static const dimensionTypographySubheadingSemiboldS3LetterSpacing = 0;
+
+  /// --type-s3s:paragraph-spacing
+  static const dimensionTypographySubheadingSemiboldS3ParagraphSpacing = 12;
 
   /// --type-b1:size
   static const dimensionTypographyBodyRegularB1Size = 14;
@@ -157,6 +193,9 @@ class AppDimensions {
   /// 2% of 14px, in px because Figma variables have no percent
   static const dimensionTypographyBodyRegularB1LetterSpacing = 0.28;
 
+  /// --type-b1:paragraph-spacing
+  static const dimensionTypographyBodyRegularB1ParagraphSpacing = 12;
+
   /// --type-b2:size
   static const dimensionTypographyBodyRegularB2Size = 12;
 
@@ -167,6 +206,9 @@ class AppDimensions {
   /// 2% of 12px, in px because Figma variables have no percent
   static const dimensionTypographyBodyRegularB2LetterSpacing = 0.24;
 
+  /// --type-b2:paragraph-spacing
+  static const dimensionTypographyBodyRegularB2ParagraphSpacing = 12;
+
   /// --type-b3:size
   static const dimensionTypographyBodyRegularB3Size = 10;
 
@@ -176,6 +218,9 @@ class AppDimensions {
   /// --type-b3:letter-spacing
   /// 2% of 10px, in px because Figma variables have no percent
   static const dimensionTypographyBodyRegularB3LetterSpacing = 0.2;
+
+  /// --type-b3:paragraph-spacing
+  static const dimensionTypographyBodyRegularB3ParagraphSpacing = 8;
 
   /// --type-b4:size
   static const dimensionTypographyBodyRegularB4Size = 8;
@@ -197,6 +242,9 @@ class AppDimensions {
   /// 2% of 14px, in px because Figma variables have no percent
   static const dimensionTypographyBodySemiboldB1LetterSpacing = 0.28;
 
+  /// --type-b1s:paragraph-spacing
+  static const dimensionTypographyBodySemiboldB1ParagraphSpacing = 12;
+
   /// --type-b2s:size
   static const dimensionTypographyBodySemiboldB2Size = 12;
 
@@ -207,6 +255,9 @@ class AppDimensions {
   /// 2% of 12px, in px because Figma variables have no percent
   static const dimensionTypographyBodySemiboldB2LetterSpacing = 0.24;
 
+  /// --type-b2s:paragraph-spacing
+  static const dimensionTypographyBodySemiboldB2ParagraphSpacing = 12;
+
   /// --type-b3s:size
   static const dimensionTypographyBodySemiboldB3Size = 10;
 
@@ -216,6 +267,9 @@ class AppDimensions {
   /// --type-b3s:letter-spacing
   /// 2% of 10px, in px because Figma variables have no percent
   static const dimensionTypographyBodySemiboldB3LetterSpacing = 0.2;
+
+  /// --type-b3s:paragraph-spacing
+  static const dimensionTypographyBodySemiboldB3ParagraphSpacing = 8;
 
   /// --type-b4s:size
   static const dimensionTypographyBodySemiboldB4Size = 8;
@@ -247,6 +301,16 @@ class AppDimensions {
   /// 2% of 12px, in px because Figma variables have no percent
   static const dimensionTypographyCtaSmallLetterSpacing = 0.24;
 
+  /// --type-cta-m:size
+  static const dimensionTypographyCtaMediumSize = 14;
+
+  /// --type-cta-m:line-height
+  static const dimensionTypographyCtaMediumLineHeight = 20;
+
+  /// --type-cta-m:letter-spacing
+  /// 2% of 14px, in px because Figma variables have no percent
+  static const dimensionTypographyCtaMediumLetterSpacing = 0.28;
+
   /// --type-lbl-l:size
   static const dimensionTypographyLabelLargeSize = 12;
 
@@ -277,6 +341,9 @@ class AppDimensions {
   /// -2% of 48px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopHeadingH1LetterSpacing = -0.96;
 
+  /// --type-desktop-h1:paragraph-spacing
+  static const dimensionTypographyDesktopHeadingH1ParagraphSpacing = 32;
+
   /// --type-desktop-h2:size
   static const dimensionTypographyDesktopHeadingH2Size = 40;
 
@@ -286,6 +353,9 @@ class AppDimensions {
   /// --type-desktop-h2:letter-spacing
   /// -2% of 40px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopHeadingH2LetterSpacing = -0.8;
+
+  /// --type-desktop-h2:paragraph-spacing
+  static const dimensionTypographyDesktopHeadingH2ParagraphSpacing = 32;
 
   /// --type-desktop-h3:size
   static const dimensionTypographyDesktopHeadingH3Size = 32;
@@ -297,6 +367,9 @@ class AppDimensions {
   /// -2% of 32px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopHeadingH3LetterSpacing = -0.64;
 
+  /// --type-desktop-h3:paragraph-spacing
+  static const dimensionTypographyDesktopHeadingH3ParagraphSpacing = 24;
+
   /// --type-desktop-h4:size
   static const dimensionTypographyDesktopHeadingH4Size = 24;
 
@@ -306,6 +379,9 @@ class AppDimensions {
   /// --type-desktop-h4:letter-spacing
   /// -2% of 24px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopHeadingH4LetterSpacing = -0.48;
+
+  /// --type-desktop-h4:paragraph-spacing
+  static const dimensionTypographyDesktopHeadingH4ParagraphSpacing = 16;
 
   /// --type-desktop-h5:size
   static const dimensionTypographyDesktopHeadingH5Size = 20;
@@ -317,6 +393,9 @@ class AppDimensions {
   /// -2% of 20px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopHeadingH5LetterSpacing = -0.4;
 
+  /// --type-desktop-h5:paragraph-spacing
+  static const dimensionTypographyDesktopHeadingH5ParagraphSpacing = 16;
+
   /// --type-desktop-h6:size
   static const dimensionTypographyDesktopHeadingH6Size = 16;
 
@@ -326,6 +405,9 @@ class AppDimensions {
   /// --type-desktop-h6:letter-spacing
   /// -2% of 16px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopHeadingH6LetterSpacing = -0.32;
+
+  /// --type-desktop-h6:paragraph-spacing
+  static const dimensionTypographyDesktopHeadingH6ParagraphSpacing = 12;
 
   /// --type-desktop-s1:size
   static const dimensionTypographyDesktopSubheadingRegularS1Size = 20;
@@ -337,6 +419,9 @@ class AppDimensions {
   /// 0% of 20px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopSubheadingRegularS1LetterSpacing = 0;
 
+  /// --type-desktop-s1:paragraph-spacing
+  static const dimensionTypographyDesktopSubheadingRegularS1ParagraphSpacing = 16;
+
   /// --type-desktop-s2:size
   static const dimensionTypographyDesktopSubheadingRegularS2Size = 18;
 
@@ -346,6 +431,9 @@ class AppDimensions {
   /// --type-desktop-s2:letter-spacing
   /// 0% of 18px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopSubheadingRegularS2LetterSpacing = 0;
+
+  /// --type-desktop-s2:paragraph-spacing
+  static const dimensionTypographyDesktopSubheadingRegularS2ParagraphSpacing = 16;
 
   /// --type-desktop-s3:size
   static const dimensionTypographyDesktopSubheadingRegularS3Size = 16;
@@ -357,6 +445,9 @@ class AppDimensions {
   /// 0% of 16px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopSubheadingRegularS3LetterSpacing = 0;
 
+  /// --type-desktop-s3:paragraph-spacing
+  static const dimensionTypographyDesktopSubheadingRegularS3ParagraphSpacing = 16;
+
   /// --type-desktop-s1s:size
   static const dimensionTypographyDesktopSubheadingSemiboldS1Size = 20;
 
@@ -366,6 +457,9 @@ class AppDimensions {
   /// --type-desktop-s1s:letter-spacing
   /// 0% of 20px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopSubheadingSemiboldS1LetterSpacing = 0;
+
+  /// --type-desktop-s1s:paragraph-spacing
+  static const dimensionTypographyDesktopSubheadingSemiboldS1ParagraphSpacing = 16;
 
   /// --type-desktop-s2s:size
   static const dimensionTypographyDesktopSubheadingSemiboldS2Size = 18;
@@ -377,6 +471,9 @@ class AppDimensions {
   /// 0% of 18px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopSubheadingSemiboldS2LetterSpacing = 0;
 
+  /// --type-desktop-s2s:paragraph-spacing
+  static const dimensionTypographyDesktopSubheadingSemiboldS2ParagraphSpacing = 16;
+
   /// --type-desktop-s3s:size
   static const dimensionTypographyDesktopSubheadingSemiboldS3Size = 16;
 
@@ -386,6 +483,9 @@ class AppDimensions {
   /// --type-desktop-s3s:letter-spacing
   /// 0% of 16px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopSubheadingSemiboldS3LetterSpacing = 0;
+
+  /// --type-desktop-s3s:paragraph-spacing
+  static const dimensionTypographyDesktopSubheadingSemiboldS3ParagraphSpacing = 16;
 
   /// --type-desktop-b1:size
   static const dimensionTypographyDesktopBodyRegularB1Size = 16;
@@ -397,6 +497,9 @@ class AppDimensions {
   /// 2% of 16px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopBodyRegularB1LetterSpacing = 0.32;
 
+  /// --type-desktop-b1:paragraph-spacing
+  static const dimensionTypographyDesktopBodyRegularB1ParagraphSpacing = 16;
+
   /// --type-desktop-b2:size
   static const dimensionTypographyDesktopBodyRegularB2Size = 14;
 
@@ -406,6 +509,9 @@ class AppDimensions {
   /// --type-desktop-b2:letter-spacing
   /// 2% of 14px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopBodyRegularB2LetterSpacing = 0.28;
+
+  /// --type-desktop-b2:paragraph-spacing
+  static const dimensionTypographyDesktopBodyRegularB2ParagraphSpacing = 12;
 
   /// --type-desktop-b3:size
   static const dimensionTypographyDesktopBodyRegularB3Size = 12;
@@ -417,6 +523,9 @@ class AppDimensions {
   /// 2% of 12px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopBodyRegularB3LetterSpacing = 0.24;
 
+  /// --type-desktop-b3:paragraph-spacing
+  static const dimensionTypographyDesktopBodyRegularB3ParagraphSpacing = 12;
+
   /// --type-desktop-b1s:size
   static const dimensionTypographyDesktopBodySemiboldB1Size = 16;
 
@@ -426,6 +535,9 @@ class AppDimensions {
   /// --type-desktop-b1s:letter-spacing
   /// 2% of 16px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopBodySemiboldB1LetterSpacing = 0.32;
+
+  /// --type-desktop-b1s:paragraph-spacing
+  static const dimensionTypographyDesktopBodySemiboldB1ParagraphSpacing = 16;
 
   /// --type-desktop-b2s:size
   static const dimensionTypographyDesktopBodySemiboldB2Size = 14;
@@ -437,6 +549,9 @@ class AppDimensions {
   /// 2% of 14px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopBodySemiboldB2LetterSpacing = 0.28;
 
+  /// --type-desktop-b2s:paragraph-spacing
+  static const dimensionTypographyDesktopBodySemiboldB2ParagraphSpacing = 12;
+
   /// --type-desktop-b3s:size
   static const dimensionTypographyDesktopBodySemiboldB3Size = 12;
 
@@ -446,6 +561,9 @@ class AppDimensions {
   /// --type-desktop-b3s:letter-spacing
   /// 2% of 12px, in px because Figma variables have no percent
   static const dimensionTypographyDesktopBodySemiboldB3LetterSpacing = 0.24;
+
+  /// --type-desktop-b3s:paragraph-spacing
+  static const dimensionTypographyDesktopBodySemiboldB3ParagraphSpacing = 12;
 
   /// --space-0
   static const dimensionSpacingScale0 = 0;
@@ -604,6 +722,54 @@ class AppDimensions {
   /// --z-toast
   /// z-index: Figma has no stacking property, so this is kept for Dev Mode handoff and hidden from pickers.
   static const dimensionZIndexToast = 50;
+
+  /// --opacity-0
+  /// Opacity in % (CSS 0.5 = Figma 50), for layer opacity.
+  static const dimensionOpacity0 = 0;
+
+  /// --opacity-8
+  /// Opacity in % (CSS 0.5 = Figma 50), for layer opacity.
+  static const dimensionOpacity8 = 8;
+
+  /// --opacity-12
+  /// Opacity in % (CSS 0.5 = Figma 50), for layer opacity.
+  static const dimensionOpacity12 = 12;
+
+  /// --opacity-16
+  /// Opacity in % (CSS 0.5 = Figma 50), for layer opacity.
+  static const dimensionOpacity16 = 16;
+
+  /// --opacity-24
+  /// Opacity in % (CSS 0.5 = Figma 50), for layer opacity.
+  static const dimensionOpacity24 = 24;
+
+  /// --opacity-32
+  /// Opacity in % (CSS 0.5 = Figma 50), for layer opacity.
+  static const dimensionOpacity32 = 32;
+
+  /// --opacity-40
+  /// Opacity in % (CSS 0.5 = Figma 50), for layer opacity.
+  static const dimensionOpacity40 = 40;
+
+  /// --opacity-48
+  /// Opacity in % (CSS 0.5 = Figma 50), for layer opacity.
+  static const dimensionOpacity48 = 48;
+
+  /// --opacity-50
+  /// Opacity in % (CSS 0.5 = Figma 50), for layer opacity.
+  static const dimensionOpacity50 = 50;
+
+  /// --opacity-64
+  /// Opacity in % (CSS 0.5 = Figma 50), for layer opacity.
+  static const dimensionOpacity64 = 64;
+
+  /// --opacity-80
+  /// Opacity in % (CSS 0.5 = Figma 50), for layer opacity.
+  static const dimensionOpacity80 = 80;
+
+  /// --opacity-100
+  /// Opacity in % (CSS 0.5 = Figma 50), for layer opacity.
+  static const dimensionOpacity100 = 100;
 
   /// The default width for all standard component borders and dividers.
   static const borderWidthBorderWidth = 1;
