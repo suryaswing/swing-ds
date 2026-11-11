@@ -80,20 +80,20 @@ class AppColors {
   /// --pink-500
   static const colorSecondaryPink500 = Color(0xffff00dd); 
   
+  /// --pink-400
+  static const colorSecondaryPink400 = Color(0xffff2ee3); 
+  
   /// --pink-300
   static const colorSecondaryPink300 = Color(0xffff5eea); 
+  
+  /// --pink-200
+  static const colorSecondaryPink200 = Color(0xffff91f0); 
   
   /// --pink-100
   static const colorSecondaryPink100 = Color(0xffffe6fc); 
   
   /// --pink-50
   static const colorSecondaryPink50 = Color(0xfffff3fc); 
-  
-  /// --pink-400
-  static const colorSecondaryPink400 = Color(0xffff2ee3); 
-  
-  /// --pink-200
-  static const colorSecondaryPink200 = Color(0xffff91f0); 
   
   /// --blue-700
   static const colorSecondaryBlue700 = Color(0xff003f87); 
@@ -104,20 +104,20 @@ class AppColors {
   /// --blue-500
   static const colorSecondaryBlue500 = Color(0xff006be6); 
   
+  /// --blue-400
+  static const colorSecondaryBlue400 = Color(0xff2e86eb); 
+  
   /// --blue-300
   static const colorSecondaryBlue300 = Color(0xff5ea2ef); 
+  
+  /// --blue-200
+  static const colorSecondaryBlue200 = Color(0xff91bff4); 
   
   /// --blue-100
   static const colorSecondaryBlue100 = Color(0xffe6f0fd); 
   
   /// --blue-50
   static const colorSecondaryBlue50 = Color(0xfff2f6ff); 
-  
-  /// --blue-400
-  static const colorSecondaryBlue400 = Color(0xff2e86eb); 
-  
-  /// --blue-200
-  static const colorSecondaryBlue200 = Color(0xff91bff4); 
   
   /// --teal-700
   static const colorSecondaryTeal700 = Color(0xff006887); 
@@ -128,20 +128,20 @@ class AppColors {
   /// --teal-500
   static const colorSecondaryTeal500 = Color(0xff00b0e6); 
   
+  /// --teal-400
+  static const colorSecondaryTeal400 = Color(0xff5ecdef); 
+  
   /// --teal-300
   static const colorSecondaryTeal300 = Color(0xff91ddf4); 
+  
+  /// --teal-200
+  static const colorSecondaryTeal200 = Color(0xffc2ecf9); 
   
   /// --teal-100
   static const colorSecondaryTeal100 = Color(0xffe6f7fd); 
   
   /// --teal-50
   static const colorSecondaryTeal50 = Color(0xfff3faff); 
-  
-  /// --teal-400
-  static const colorSecondaryTeal400 = Color(0xff5ecdef); 
-  
-  /// --teal-200
-  static const colorSecondaryTeal200 = Color(0xffc2ecf9); 
   
   /// --red-700
   static const colorStatusRed700 = Color(0xffa71406); 
@@ -155,20 +155,20 @@ class AppColors {
   /// --red-500
   static const colorStatusRed500 = Color(0xffff2a12); 
   
+  /// --red-400
+  static const colorStatusRed400 = Color(0xffff503d); 
+  
   /// --red-300
   static const colorStatusRed300 = Color(0xffffa399); 
   
   /// --red-100
   static const colorStatusRed100 = Color(0xffffeae7); 
   
-  /// --red-50
-  static const colorStatusRed50 = Color(0xfffff8f5); 
-  
-  /// --red-400
-  static const colorStatusRed400 = Color(0xffff503d); 
-  
   /// --red-200
   static const colorStatusRed200 = Color(0xffffccc6); 
+  
+  /// --red-50
+  static const colorStatusRed50 = Color(0xfffff8f5); 
   
   /// --green-700
   static const colorStatusGreen700 = Color(0xff20694a); 
@@ -179,20 +179,20 @@ class AppColors {
   /// --green-500
   static const colorStatusGreen500 = Color(0xff36b37e); 
   
+  /// --green-400
+  static const colorStatusGreen400 = Color(0xff5ac195); 
+  
   /// --green-300
   static const colorStatusGreen300 = Color(0xff80cfae); 
+  
+  /// --green-200
+  static const colorStatusGreen200 = Color(0xffa9dec8); 
   
   /// --green-100
   static const colorStatusGreen100 = Color(0xffdcfae9); 
   
   /// --green-50
   static const colorStatusGreen50 = Color(0xffeffff7); 
-  
-  /// --green-400
-  static const colorStatusGreen400 = Color(0xff5ac195); 
-  
-  /// --green-200
-  static const colorStatusGreen200 = Color(0xffa9dec8); 
   
   /// --orange-700
   static const colorStatusOrange700 = Color(0xffc15a00); 
@@ -203,20 +203,20 @@ class AppColors {
   /// --orange-500
   static const colorStatusOrange500 = Color(0xffff8113); 
   
+  /// --orange-400
+  static const colorStatusOrange400 = Color(0xffff983d); 
+  
   /// --orange-300
   static const colorStatusOrange300 = Color(0xffffb06a); 
+  
+  /// --orange-200
+  static const colorStatusOrange200 = Color(0xffffc99a); 
   
   /// --orange-100
   static const colorStatusOrange100 = Color(0xfffbebe1); 
   
   /// --orange-50
   static const colorStatusOrange50 = Color(0xfffff9ee); 
-  
-  /// --orange-400
-  static const colorStatusOrange400 = Color(0xffff983d); 
-  
-  /// --orange-200
-  static const colorStatusOrange200 = Color(0xffffc99a); 
   
   /// --scrim
   static const colorOverlayScrim = Color(0x801c1c28); 
@@ -260,6 +260,12 @@ class AppColors {
   /// --light-100
   static const colorNeutralLight100 = Color(0xffffffff); 
   
+  /// --purple-900
+  static const colorPrimaryPurple900 = Color(0xff290067); 
+  
+  /// --purple-800
+  static const colorPrimaryPurple800 = Color(0xff340083); 
+  
   /// --purple-700
   static const colorPrimaryPurple700 = Color(0xff4100a3); 
   
@@ -269,26 +275,20 @@ class AppColors {
   /// --purple-500
   static const colorPrimaryPurple500 = Color(0xff5c00e6); 
   
+  /// --purple-400
+  static const colorPrimaryPurple400 = Color(0xff792eeb); 
+  
   /// --purple-300
   static const colorPrimaryPurple300 = Color(0xff985eef); 
+  
+  /// --purple-200
+  static const colorPrimaryPurple200 = Color(0xffb284f9); 
   
   /// --purple-100
   static const colorPrimaryPurple100 = Color(0xffe6dcfa); 
   
   /// --purple-50
   static const colorPrimaryPurple50 = Color(0xfff9f3ff); 
-  
-  /// --purple-900
-  static const colorPrimaryPurple900 = Color(0xff290067); 
-  
-  /// --purple-800
-  static const colorPrimaryPurple800 = Color(0xff340083); 
-  
-  /// --purple-400
-  static const colorPrimaryPurple400 = Color(0xff792eeb); 
-  
-  /// --purple-200
-  static const colorPrimaryPurple200 = Color(0xffb284f9); 
   
   static const red50 = Color(0xfffff8f5); 
   
