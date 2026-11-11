@@ -1,6 +1,64 @@
 import 'package:flutter/material.dart';
 
 class AppTextStyles {
+  static const ctaButtonLarge = TextStyle(
+    fontFamily: "Manrope",
+    fontWeight: FontWeight.w700,
+    fontStyle: FontStyle.normal,
+    fontSize: 16,
+    decoration: TextDecoration.none,
+    letterSpacing: 0.32,
+    height: 1.25,
+    leadingDistribution: TextLeadingDistribution.even,
+  );
+
+  /// --type-cta-m
+  static const ctaMedium = TextStyle(
+    fontFamily: "Manrope",
+    fontWeight: FontWeight.w700,
+    fontStyle: FontStyle.normal,
+    fontSize: 14,
+    decoration: TextDecoration.none,
+    letterSpacing: 0.2800000011920929,
+    height: 1.4285714285714286,
+    leadingDistribution: TextLeadingDistribution.even,
+  );
+
+  /// --type-cta-l
+  static const ctaLarge = TextStyle(
+    fontFamily: "Manrope",
+    fontWeight: FontWeight.w700,
+    fontStyle: FontStyle.normal,
+    fontSize: 16,
+    decoration: TextDecoration.none,
+    letterSpacing: 0.3199999928474426,
+    height: 1.25,
+    leadingDistribution: TextLeadingDistribution.even,
+  );
+
+  /// --type-cta-s
+  static const ctaSmall = TextStyle(
+    fontFamily: "Manrope",
+    fontWeight: FontWeight.w700,
+    fontStyle: FontStyle.normal,
+    fontSize: 12,
+    decoration: TextDecoration.none,
+    letterSpacing: 0.239999994635582,
+    height: 1.1666666666666667,
+    leadingDistribution: TextLeadingDistribution.even,
+  );
+
+  static const ctaButtonSmall = TextStyle(
+    fontFamily: "Manrope",
+    fontWeight: FontWeight.w700,
+    fontStyle: FontStyle.normal,
+    fontSize: 12,
+    decoration: TextDecoration.none,
+    letterSpacing: 0.24,
+    height: 1.1666666666666667,
+    leadingDistribution: TextLeadingDistribution.even,
+  );
+
   /// --type-h1
   static const headingH1 = TextStyle(
     fontFamily: "Manrope",
@@ -654,52 +712,6 @@ class AppTextStyles {
     decoration: TextDecoration.none,
     letterSpacing: 0,
     height: 1.4285714285714286,
-    leadingDistribution: TextLeadingDistribution.even,
-  );
-
-  static const ctaButtonLarge = TextStyle(
-    fontFamily: "Manrope",
-    fontWeight: FontWeight.w700,
-    fontStyle: FontStyle.normal,
-    fontSize: 16,
-    decoration: TextDecoration.none,
-    letterSpacing: 0.32,
-    height: 1.25,
-    leadingDistribution: TextLeadingDistribution.even,
-  );
-
-  /// --type-cta-l
-  static const ctaLarge = TextStyle(
-    fontFamily: "Manrope",
-    fontWeight: FontWeight.w700,
-    fontStyle: FontStyle.normal,
-    fontSize: 16,
-    decoration: TextDecoration.none,
-    letterSpacing: 0.3199999928474426,
-    height: 1.25,
-    leadingDistribution: TextLeadingDistribution.even,
-  );
-
-  /// --type-cta-s
-  static const ctaSmall = TextStyle(
-    fontFamily: "Manrope",
-    fontWeight: FontWeight.w700,
-    fontStyle: FontStyle.normal,
-    fontSize: 12,
-    decoration: TextDecoration.none,
-    letterSpacing: 0.239999994635582,
-    height: 1.1666666666666667,
-    leadingDistribution: TextLeadingDistribution.even,
-  );
-
-  static const ctaButtonSmall = TextStyle(
-    fontFamily: "Manrope",
-    fontWeight: FontWeight.w700,
-    fontStyle: FontStyle.normal,
-    fontSize: 12,
-    decoration: TextDecoration.none,
-    letterSpacing: 0.24,
-    height: 1.1666666666666667,
     leadingDistribution: TextLeadingDistribution.even,
   );
 
