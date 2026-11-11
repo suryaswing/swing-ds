@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
 
 class AppGradients {
-  static const gradientBrandSwingPasshhh = LinearGradient(
-    begin: Alignment(1, -1),
-    end: Alignment(2.8, -1),
+  static const gradientBrandRadialOp = LinearGradient(
+    begin: Alignment(-0.9526, -1),
+    end: Alignment(0.9450000000000001, 0.9634),
     stops: [
       0,
-      0.7,
+      0.5,
+      1,
     ],
     colors: [
-    Color(0xff0000ff),
-    Color(0xff0000ff),
+    Color(0xff5c00e6),
+    Color(0x805c00e6),
+    Color(0x005c00e6),
     ],
   );
 
@@ -111,18 +113,16 @@ class AppGradients {
     ],
   );
 
-  static const gradientBrandRadialOp = LinearGradient(
-    begin: Alignment(-0.9526, -1),
-    end: Alignment(0.9450000000000001, 0.9634),
+  static const gradientBrandSwingPasshhh = LinearGradient(
+    begin: Alignment(1, -1),
+    end: Alignment(2.8, -1),
     stops: [
       0,
-      0.5,
-      1,
+      0.7,
     ],
     colors: [
-    Color(0xff5c00e6),
-    Color(0x805c00e6),
-    Color(0x005c00e6),
+    Color(0xff0000ff),
+    Color(0xff0000ff),
     ],
   );
 
