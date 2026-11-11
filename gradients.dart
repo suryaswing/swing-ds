@@ -1,6 +1,36 @@
 import 'package:flutter/material.dart';
 
 class AppGradients {
+  static const gradientOverlayImageBottom = LinearGradient(
+    begin: Alignment(0, -1),
+    end: Alignment(0, 1),
+    stops: [
+      0.3,
+      0.7,
+      1,
+    ],
+    colors: [
+    Color(0x001c1c28),
+    Color(0x7a1c1c28),
+    Color(0xcc1c1c28),
+    ],
+  );
+
+  /// --deal-scrim
+  /// Linear angle is converted for a square box; on wide frames CSS stretches the gradient line slightly differently.
+  static const gradientOverlayDealScrim = LinearGradient(
+    begin: Alignment(0, -1),
+    end: Alignment(0, 1),
+    stops: [
+      0.25,
+      1,
+    ],
+    colors: [
+    Color(0x005c00e6),
+    Color(0xff5c00e6),
+    ],
+  );
+
   /// --gradient-purple
   /// Linear angle is converted for a square box; on wide frames CSS stretches the gradient line slightly differently.
   static const gradientBrandPurple = LinearGradient(
@@ -125,6 +155,32 @@ class AppGradients {
     ],
   );
 
+  static const gradientStatusSuccess = LinearGradient(
+    begin: Alignment(-1, -1),
+    end: Alignment(0, 0),
+    stops: [
+      0,
+      1,
+    ],
+    colors: [
+    Color(0xff36b37e),
+    Color(0xff00b0e6),
+    ],
+  );
+
+  static const gradientStatusWarning = LinearGradient(
+    begin: Alignment(-1, -1),
+    end: Alignment(0, 0),
+    stops: [
+      0,
+      1,
+    ],
+    colors: [
+    Color(0xffff8113),
+    Color(0xffff2a12),
+    ],
+  );
+
   /// --glass-fill
   /// Linear angle is converted for a square box; on wide frames CSS stretches the gradient line slightly differently.
   static const gradientSurfaceGlassFill = LinearGradient(
@@ -178,62 +234,6 @@ class AppGradients {
     colors: [
     Color(0xfff3faff),
     Color(0xffffffff),
-    ],
-  );
-
-  static const gradientStatusSuccess = LinearGradient(
-    begin: Alignment(-1, -1),
-    end: Alignment(0, 0),
-    stops: [
-      0,
-      1,
-    ],
-    colors: [
-    Color(0xff36b37e),
-    Color(0xff00b0e6),
-    ],
-  );
-
-  static const gradientStatusWarning = LinearGradient(
-    begin: Alignment(-1, -1),
-    end: Alignment(0, 0),
-    stops: [
-      0,
-      1,
-    ],
-    colors: [
-    Color(0xffff8113),
-    Color(0xffff2a12),
-    ],
-  );
-
-  static const gradientOverlayImageBottom = LinearGradient(
-    begin: Alignment(0, -1),
-    end: Alignment(0, 1),
-    stops: [
-      0.3,
-      0.7,
-      1,
-    ],
-    colors: [
-    Color(0x001c1c28),
-    Color(0x7a1c1c28),
-    Color(0xcc1c1c28),
-    ],
-  );
-
-  /// --deal-scrim
-  /// Linear angle is converted for a square box; on wide frames CSS stretches the gradient line slightly differently.
-  static const gradientOverlayDealScrim = LinearGradient(
-    begin: Alignment(0, -1),
-    end: Alignment(0, 1),
-    stops: [
-      0.25,
-      1,
-    ],
-    colors: [
-    Color(0x005c00e6),
-    Color(0xff5c00e6),
     ],
   );
 
