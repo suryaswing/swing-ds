@@ -1,0 +1,13 @@
+#!/bin/sh
+set -eu
+
+repo_root=$(git rev-parse --show-toplevel)
+cd "$repo_root"
+
+if ! command -v dart >/dev/null 2>&1; then
+  echo "Token sync skipped: Dart SDK is required. Run: dart run tool/sync_tokens.dart" >&2
+  exit 1
+fi
+
+git fetch origin supernova-flutter
+dart run tool/sync_tokens.dart
