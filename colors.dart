@@ -1,39 +1,6 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  /// --dark-500
-  static const colorNeutralDark500 = Color(0xff1c1c28); 
-  
-  /// --dark-400
-  static const colorNeutralDark400 = Color(0xff28293d); 
-  
-  /// --dark-300
-  static const colorNeutralDark300 = Color(0xff555770); 
-  
-  /// --dark-200
-  static const colorNeutralDark200 = Color(0xff8f90a6); 
-  
-  /// --dark-100
-  static const colorNeutralDark100 = Color(0xffc7c9d9); 
-  
-  /// --dark-50
-  static const colorNeutralDark50 = Color(0xffdcdde7); 
-  
-  /// --light-500
-  static const colorNeutralLight500 = Color(0xffe4e4eb); 
-  
-  /// --light-400
-  static const colorNeutralLight400 = Color(0xffebebf0); 
-  
-  /// --light-300
-  static const colorNeutralLight300 = Color(0xfff2f2f5); 
-  
-  /// --light-200
-  static const colorNeutralLight200 = Color(0xfffafafc); 
-  
-  /// --light-100
-  static const colorNeutralLight100 = Color(0xffffffff); 
-  
   /// --purple-900
   static const colorPrimaryPurple900 = Color(0xff290067); 
   
@@ -255,6 +222,39 @@ class AppColors {
   
   /// --glass-line
   static const colorGlassLine = Color(0x80ffffff); 
+  
+  /// --dark-500
+  static const colorNeutralDark500 = Color(0xff1c1c28); 
+  
+  /// --dark-400
+  static const colorNeutralDark400 = Color(0xff28293d); 
+  
+  /// --dark-300
+  static const colorNeutralDark300 = Color(0xff555770); 
+  
+  /// --dark-200
+  static const colorNeutralDark200 = Color(0xff8f90a6); 
+  
+  /// --dark-100
+  static const colorNeutralDark100 = Color(0xffc7c9d9); 
+  
+  /// --dark-50
+  static const colorNeutralDark50 = Color(0xffdcdde7); 
+  
+  /// --light-500
+  static const colorNeutralLight500 = Color(0xffe4e4eb); 
+  
+  /// --light-400
+  static const colorNeutralLight400 = Color(0xffebebf0); 
+  
+  /// --light-300
+  static const colorNeutralLight300 = Color(0xfff2f2f5); 
+  
+  /// --light-200
+  static const colorNeutralLight200 = Color(0xfffafafc); 
+  
+  /// --light-100
+  static const colorNeutralLight100 = Color(0xffffffff); 
   
   AppColors._();
 }
