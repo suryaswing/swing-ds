@@ -1,6 +1,114 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
+  /// --red-press
+  static const colorStatusRedPress = Color(0xff91150b); 
+  
+  /// --red-700
+  static const colorStatusRed700 = Color(0xffa71406); 
+  
+  /// --red-600
+  static const colorStatusRed600 = Color(0xffed1800); 
+  
+  /// --red-500
+  static const colorStatusRed500 = Color(0xffff2a12); 
+  
+  /// --red-400
+  static const colorStatusRed400 = Color(0xffff503d); 
+  
+  /// --red-300
+  static const colorStatusRed300 = Color(0xffffa399); 
+  
+  /// --red-100
+  static const colorStatusRed100 = Color(0xffffeae7); 
+  
+  /// --red-200
+  static const colorStatusRed200 = Color(0xffffccc6); 
+  
+  /// --red-50
+  static const colorStatusRed50 = Color(0xfffff8f5); 
+  
+  /// --green-700
+  static const colorStatusGreen700 = Color(0xff20694a); 
+  
+  /// --green-600
+  static const colorStatusGreen600 = Color(0xff2b8e64); 
+  
+  /// --green-500
+  static const colorStatusGreen500 = Color(0xff36b37e); 
+  
+  /// --green-400
+  static const colorStatusGreen400 = Color(0xff5ac195); 
+  
+  /// --green-300
+  static const colorStatusGreen300 = Color(0xff80cfae); 
+  
+  /// --green-200
+  static const colorStatusGreen200 = Color(0xffa9dec8); 
+  
+  /// --green-100
+  static const colorStatusGreen100 = Color(0xffdcfae9); 
+  
+  /// --green-50
+  static const colorStatusGreen50 = Color(0xffeffff7); 
+  
+  /// --orange-700
+  static const colorStatusOrange700 = Color(0xffc15a00); 
+  
+  /// --orange-600
+  static const colorStatusOrange600 = Color(0xffec6e00); 
+  
+  /// --orange-500
+  static const colorStatusOrange500 = Color(0xffff8113); 
+  
+  /// --orange-400
+  static const colorStatusOrange400 = Color(0xffff983d); 
+  
+  /// --orange-300
+  static const colorStatusOrange300 = Color(0xffffb06a); 
+  
+  /// --orange-200
+  static const colorStatusOrange200 = Color(0xffffc99a); 
+  
+  /// --orange-100
+  static const colorStatusOrange100 = Color(0xfffbebe1); 
+  
+  /// --orange-50
+  static const colorStatusOrange50 = Color(0xfffff9ee); 
+  
+  /// --dark-500
+  static const colorNeutralDark500 = Color(0xff1c1c28); 
+  
+  /// --dark-400
+  static const colorNeutralDark400 = Color(0xff28293d); 
+  
+  /// --dark-300
+  static const colorNeutralDark300 = Color(0xff555770); 
+  
+  /// --dark-200
+  static const colorNeutralDark200 = Color(0xff8f90a6); 
+  
+  /// --dark-100
+  static const colorNeutralDark100 = Color(0xffc7c9d9); 
+  
+  /// --dark-50
+  static const colorNeutralDark50 = Color(0xffdcdde7); 
+  
+  /// --light-500
+  static const colorNeutralLight500 = Color(0xffe4e4eb); 
+  
+  /// --light-400
+  static const colorNeutralLight400 = Color(0xffebebf0); 
+  
+  /// --light-300
+  static const colorNeutralLight300 = Color(0xfff2f2f5); 
+  
+  /// --light-200
+  static const colorNeutralLight200 = Color(0xfffafafc); 
+  
+  /// --light-100
+  static const colorNeutralLight100 = Color(0xffffffff); 
+  
   /// --purple-900
   static const colorPrimaryPurple900 = Color(0xff290067); 
   
@@ -103,81 +211,6 @@ class AppColors {
   /// --pink-50
   static const colorSecondaryPink50 = Color(0xfffff3fc); 
   
-  /// --green-700
-  static const colorStatusGreen700 = Color(0xff20694a); 
-  
-  /// --green-600
-  static const colorStatusGreen600 = Color(0xff2b8e64); 
-  
-  /// --green-500
-  static const colorStatusGreen500 = Color(0xff36b37e); 
-  
-  /// --green-400
-  static const colorStatusGreen400 = Color(0xff5ac195); 
-  
-  /// --green-300
-  static const colorStatusGreen300 = Color(0xff80cfae); 
-  
-  /// --green-200
-  static const colorStatusGreen200 = Color(0xffa9dec8); 
-  
-  /// --green-100
-  static const colorStatusGreen100 = Color(0xffdcfae9); 
-  
-  /// --green-50
-  static const colorStatusGreen50 = Color(0xffeffff7); 
-  
-  /// --orange-700
-  static const colorStatusOrange700 = Color(0xffc15a00); 
-  
-  /// --orange-600
-  static const colorStatusOrange600 = Color(0xffec6e00); 
-  
-  /// --orange-500
-  static const colorStatusOrange500 = Color(0xffff8113); 
-  
-  /// --orange-400
-  static const colorStatusOrange400 = Color(0xffff983d); 
-  
-  /// --orange-300
-  static const colorStatusOrange300 = Color(0xffffb06a); 
-  
-  /// --orange-200
-  static const colorStatusOrange200 = Color(0xffffc99a); 
-  
-  /// --orange-100
-  static const colorStatusOrange100 = Color(0xfffbebe1); 
-  
-  /// --orange-50
-  static const colorStatusOrange50 = Color(0xfffff9ee); 
-  
-  /// --red-700
-  static const colorStatusRed700 = Color(0xffa71406); 
-  
-  /// --red-press
-  static const colorStatusRedPress = Color(0xff91150b); 
-  
-  /// --red-600
-  static const colorStatusRed600 = Color(0xffed1800); 
-  
-  /// --red-500
-  static const colorStatusRed500 = Color(0xffff2a12); 
-  
-  /// --red-400
-  static const colorStatusRed400 = Color(0xffff503d); 
-  
-  /// --red-300
-  static const colorStatusRed300 = Color(0xffffa399); 
-  
-  /// --red-100
-  static const colorStatusRed100 = Color(0xffffeae7); 
-  
-  /// --red-200
-  static const colorStatusRed200 = Color(0xffffccc6); 
-  
-  /// --red-50
-  static const colorStatusRed50 = Color(0xfffff8f5); 
-  
   /// --color-text
   static const colorSemanticTextDefault = Color(0xff1c1c28); 
   
@@ -222,39 +255,6 @@ class AppColors {
   
   /// --glass-line
   static const colorGlassLine = Color(0x80ffffff); 
-  
-  /// --dark-500
-  static const colorNeutralDark500 = Color(0xff1c1c28); 
-  
-  /// --dark-400
-  static const colorNeutralDark400 = Color(0xff28293d); 
-  
-  /// --dark-300
-  static const colorNeutralDark300 = Color(0xff555770); 
-  
-  /// --dark-200
-  static const colorNeutralDark200 = Color(0xff8f90a6); 
-  
-  /// --dark-100
-  static const colorNeutralDark100 = Color(0xffc7c9d9); 
-  
-  /// --dark-50
-  static const colorNeutralDark50 = Color(0xffdcdde7); 
-  
-  /// --light-500
-  static const colorNeutralLight500 = Color(0xffe4e4eb); 
-  
-  /// --light-400
-  static const colorNeutralLight400 = Color(0xffebebf0); 
-  
-  /// --light-300
-  static const colorNeutralLight300 = Color(0xfff2f2f5); 
-  
-  /// --light-200
-  static const colorNeutralLight200 = Color(0xfffafafc); 
-  
-  /// --light-100
-  static const colorNeutralLight100 = Color(0xffffffff); 
   
   AppColors._();
 }
