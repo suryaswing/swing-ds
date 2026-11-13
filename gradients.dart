@@ -1,33 +1,18 @@
 import 'package:flutter/material.dart';
 
 class AppGradients {
-  static const gradientOverlayImageBottom = LinearGradient(
-    begin: Alignment(0, -1),
-    end: Alignment(0, 1),
+  static const gradientBrandRadialGd = LinearGradient(
+    begin: Alignment(-0.9526, -1),
+    end: Alignment(0.9450000000000001, 0.9634),
     stops: [
-      0.3,
-      0.7,
+      0,
+      0.5,
       1,
     ],
     colors: [
-    Color(0x001c1c28),
-    Color(0x7a1c1c28),
-    Color(0xcc1c1c28),
-    ],
-  );
-
-  /// --deal-scrim
-  /// Linear angle is converted for a square box; on wide frames CSS stretches the gradient line slightly differently.
-  static const gradientOverlayDealScrim = LinearGradient(
-    begin: Alignment(0, -1),
-    end: Alignment(0, 1),
-    stops: [
-      0.25,
-      1,
-    ],
-    colors: [
-    Color(0x005c00e6),
     Color(0xff5c00e6),
+    Color(0x805c00e6),
+    Color(0x005c00e6),
     ],
   );
 
@@ -48,21 +33,7 @@ class AppGradients {
     ],
   );
 
-  /// --gradient-swing-pass
-  static const gradientBrandSwingPass = LinearGradient(
-    begin: Alignment(1, -1),
-    end: Alignment(2.8, -1),
-    stops: [
-      0,
-      0.7,
-    ],
-    colors: [
-    Color(0xff0000ff),
-    Color(0xff0000ff),
-    ],
-  );
-
-  static const gradientBrandLinearOp = LinearGradient(
+  static const gradientBrandLinearGd = LinearGradient(
     begin: Alignment(0, -1),
     end: Alignment(0, 1),
     stops: [
@@ -85,8 +56,8 @@ class AppGradients {
     ],
     colors: [
     Color(0xff5c00e6),
-    Color(0xff4900b8),
-    Color(0xff360087),
+    Color(0xff4e00c4),
+    Color(0xff4100a3),
     ],
   );
 
@@ -142,16 +113,48 @@ class AppGradients {
     ],
   );
 
-  static const gradientBrandRadialOp = LinearGradient(
-    begin: Alignment(-0.9526, -1),
-    end: Alignment(0.9450000000000001, 0.9634),
+  static const gradientBrandPurpleSp = LinearGradient(
+    begin: Alignment(0.8573999999999999, -0.9299999999999999),
+    end: Alignment(-0.8326, 0.9299999999999999),
     stops: [
       0,
+      0.4327,
       1,
     ],
     colors: [
+    Color(0xff4700b1),
     Color(0xff5c00e6),
+    Color(0xff874edb),
+    ],
+  );
+
+  static const gradientOverlayImageBottom = LinearGradient(
+    begin: Alignment(0, -1),
+    end: Alignment(0, 1),
+    stops: [
+      0.3,
+      0.7,
+      1,
+    ],
+    colors: [
+    Color(0x001c1c28),
+    Color(0x7a1c1c28),
+    Color(0xcc1c1c28),
+    ],
+  );
+
+  /// --deal-scrim
+  /// Linear angle is converted for a square box; on wide frames CSS stretches the gradient line slightly differently.
+  static const gradientOverlayDealScrim = LinearGradient(
+    begin: Alignment(0, -1),
+    end: Alignment(0, 1),
+    stops: [
+      0.25,
+      1,
+    ],
+    colors: [
     Color(0x005c00e6),
+    Color(0xff5c00e6),
     ],
   );
 

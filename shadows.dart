@@ -1,55 +1,59 @@
 import 'package:flutter/material.dart';
 
 class AppShadows {
-  static const elevationSmall = BoxShadow(
-    color: Color(0x14000000),
+  /// --elevation-1
+  static const elevationScale1 = BoxShadow(
+    color: Color(0x141c1c28),
+    offset: Offset(0, 1),
+    blurRadius: 2,
+    spreadRadius: 0,
+  );
+
+  /// --elevation-1
+  static const elevationScale12 = BoxShadow(
+    color: Color(0x141c1c28),
     offset: Offset(0, 2),
     blurRadius: 8,
     spreadRadius: 0,
   );
 
-  static const elevationMedium = BoxShadow(
-    color: Color(0x1f000000),
-    offset: Offset(0, 4),
-    blurRadius: 16,
+  /// --elevation-2
+  static const elevationScale2 = BoxShadow(
+    color: Color(0x141c1c28),
+    offset: Offset(0, 2),
+    blurRadius: 6,
     spreadRadius: 0,
   );
 
-  static const elevationLarge = BoxShadow(
-    color: Color(0x38000000),
-    offset: Offset(0, 16),
-    blurRadius: 48,
+  /// --elevation-2
+  static const elevationScale22 = BoxShadow(
+    color: Color(0x241c1c28),
+    offset: Offset(0, 8),
+    blurRadius: 24,
     spreadRadius: 0,
   );
 
-  static const elevationUpwards = BoxShadow(
-    color: Color(0x1f000000),
+  /// --elevation-3
+  static const elevationScale3 = BoxShadow(
+    color: Color(0x141c1c28),
     offset: Offset(0, -4),
     blurRadius: 16,
     spreadRadius: 0,
   );
 
-  /// Use to create a shadow when content scrolls under other content.
-  static const elevationShadowOverflow = BoxShadow(
-    color: Color(0xff1c1c28),
-    offset: Offset(0, 0),
+  /// --elevation-brand
+  static const elevationBrandDefault = BoxShadow(
+    color: Color(0x295c00e6),
+    offset: Offset(0, 2),
     blurRadius: 8,
     spreadRadius: 0,
   );
 
-  /// --line-sticky
-  static const lineSticky = BoxShadow(
-    color: Color(0xffe4e4eb),
-    offset: Offset(0, 1),
-    blurRadius: 0,
-    spreadRadius: 0,
-  );
-
-  /// --line-sticky-up
-  static const lineStickyUp = BoxShadow(
-    color: Color(0xffe4e4eb),
-    offset: Offset(0, -1),
-    blurRadius: 0,
+  /// --elevation-brand-s
+  static const elevationBrandSmall = BoxShadow(
+    color: Color(0x295c00e6),
+    offset: Offset(0, 2),
+    blurRadius: 4,
     spreadRadius: 0,
   );
 
@@ -93,59 +97,19 @@ class AppShadows {
     spreadRadius: 0,
   );
 
-  /// --elevation-brand
-  static const elevationBrandDefault = BoxShadow(
-    color: Color(0x295c00e6),
-    offset: Offset(0, 2),
-    blurRadius: 8,
-    spreadRadius: 0,
-  );
-
-  /// --elevation-brand-s
-  static const elevationBrandSmall = BoxShadow(
-    color: Color(0x295c00e6),
-    offset: Offset(0, 2),
-    blurRadius: 4,
-    spreadRadius: 0,
-  );
-
-  /// --elevation-1
-  static const elevationScale1 = BoxShadow(
-    color: Color(0x141c1c28),
+  /// --line-sticky
+  static const lineSticky = BoxShadow(
+    color: Color(0xffe4e4eb),
     offset: Offset(0, 1),
-    blurRadius: 2,
+    blurRadius: 0,
     spreadRadius: 0,
   );
 
-  /// --elevation-1
-  static const elevationScale12 = BoxShadow(
-    color: Color(0x141c1c28),
-    offset: Offset(0, 2),
-    blurRadius: 8,
-    spreadRadius: 0,
-  );
-
-  /// --elevation-2
-  static const elevationScale2 = BoxShadow(
-    color: Color(0x141c1c28),
-    offset: Offset(0, 2),
-    blurRadius: 6,
-    spreadRadius: 0,
-  );
-
-  /// --elevation-2
-  static const elevationScale22 = BoxShadow(
-    color: Color(0x241c1c28),
-    offset: Offset(0, 8),
-    blurRadius: 24,
-    spreadRadius: 0,
-  );
-
-  /// --elevation-3
-  static const elevationScale3 = BoxShadow(
-    color: Color(0x141c1c28),
-    offset: Offset(0, -4),
-    blurRadius: 16,
+  /// --line-sticky-up
+  static const lineStickyUp = BoxShadow(
+    color: Color(0xffe4e4eb),
+    offset: Offset(0, -1),
+    blurRadius: 0,
     spreadRadius: 0,
   );
 
